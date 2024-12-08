@@ -1,0 +1,100 @@
+<html>
+<head>
+<style>
+ .container {
+            position: relative;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+ .text {
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 15px;
+           
+            padding: 5px 10px;
+        }
+body
+{
+background-image:url('blue.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+.b2
+{
+background-color:#4285F4;
+padding:5px 10px;
+border-radius:30px;
+}
+.audio-player {
+    max-width: 90%;
+    margin: 35px auto;
+    padding: 10px;
+    background-color:#99D5F4;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    text-align: center;
+
+</style>
+</head>
+<body>
+
+<button class="b2" onclick="window.location.href='health.html'"> <-back </button>
+<div class="container">
+<img src="baby.jpg" style="height:80%;width:90%;border: 2px solid #333;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+<figcaption class="text"><center><h1>Deep Sleep Like Baby</h1></center>
+ <h2><center><b>Close your eyes and drift into a deep, restful sleep with our selection of calming music.</b></center></h2></figcaption>
+ </div>
+
+ <div class="audio-player">
+ <h1>Piano Musics</h1>
+ <h3>Piano music can evoke a range of emotions, from soothing and contemplative to lively and energetic, captivating listeners with its rich melodies and harmonies.</h3>
+ 
+ 
+ 
+        <audio controls>
+            <source src="piano.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+		
+		</div>
+		<div class="audio-player">
+        <h1>Birds Sounds</h1>
+		<h3>Bird music, with its melodic chirping and trilling, creates a natural symphony that uplifts the spirit and connects us to the beauty of the outdoors.</h3>
+        <audio controls>
+            <source src="birds2.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+		</div>
+		<div class="audio-player">
+        <h1>Flute Musics</h1>
+		<h3>Flute music, with its ethereal and enchanting melodies, has the power to transport listeners to a realm of tranquility and introspection.</h3>
+        <audio controls>
+            <source src="flute.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+		</div>
+		<div class="audio-player">
+		<h1>Water Sounds</h1>
+		<h3>Water music, with its flowing rhythms and calming sounds, creates a peaceful ambiance that soothes the soul and inspires relaxation.</h3>
+        
+        <audio controls>
+            <source src="water.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+		</div>
+
+
+<script>
+function health()
+    {
+        window.location.href='health.html';
+    }
+</script>
+</body>
+</html>
